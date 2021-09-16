@@ -6,13 +6,14 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner input = new Scanner(System.in);
-    static Double result=0.0;
+//    static Double result=0.0;
 
     public static void main(String[] args) {
 
         int choice;
         boolean status = true;
-        List<Double> resultsDB = new ArrayList<Double>();   // Kullanıcının kaydettiği sonuçları tutmak için
+        Double result=0.0;
+        List<Double> resultsDB = new ArrayList<Double>();   // To keep user saved results
 
 
         while (status) {
