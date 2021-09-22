@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+/**
+ * @author Onur Solmaz
+ */
+
 public class Main {
     static Scanner input = new Scanner(System.in);
 //    static Double result=0.0;
